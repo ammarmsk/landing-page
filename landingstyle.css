@@ -1,0 +1,65 @@
+.body {
+display: flex;
+flex-direction: column;
+}
+.title1{
+font-size: 48px;
+font-weight: bolder;
+color: white;
+}
+
+.top-section {
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+ flex-direction: column;
+
+}
+
+.header {
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+padding: 20px;
+}
+ 
+.header-logo {
+    display: flex;
+    justify-content:center;
+    font-size: 24px;
+}
+
+.middle-section {
+ display: flex;
+ flex-direction: row;
+}
+
+
+.header2 {
+display: flex;
+flex-direction: row;
+padding-left: 150px;
+padding-right: 150px;
+padding-bottom: 50px;
+padding-top: 50px;
+justify-content: center;
+
+gap: 150px;
+}
+
+.subheading2 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 380px;
+height: 300px;
+}
+
+.links {
+display: flex;
+justify-items: flex-end;
+gap: 30px;
+font-size: 24px;
+}
+
+
