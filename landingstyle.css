@@ -1,6 +1,8 @@
 .body {
 display: flex;
 flex-direction: column;
+justify-content: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .title1{
 font-size: 48px;
@@ -126,4 +128,34 @@ button {
     padding: 100px;
     padding-left: 200px;
     padding-right: 200px;
+    display: flex;
+    flex-grow: 0;
+    justify-content: center;
+    
+    
+}
+
+
+.footer {
+   width: 65%;
+   height: 85%;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   flex-direction: row;
+   flex-grow: 0;
+   background-color: sienna ;
+   margin:100px;
+   padding: 30px;
+   border-radius: 25px;
+  border: 2px solid white;
+  flex-grow: inherit;
+
+
+  color: black;
+  font-size:24px ;
+  font-weight: 600;
+  gap: 25px;
+   
+
 }
