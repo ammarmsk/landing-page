@@ -17,6 +17,7 @@ color: white;
  flex-direction: column;
  border: 2px solid black;
   margin: 20px;
+  border-radius: 25px;
 
 }
 
